@@ -101,7 +101,7 @@ add_dependencies(PoolWallet version)
 add_dependencies(P2P version)
 
 # Finally build the binaries
-set_property(TARGET Daemon PROPERTY OUTPUT_NAME "ShitCoind")
+set_property(TARGET Daemon PROPERTY OUTPUT_NAME "UaiCoind")
 set_property(TARGET SimpleWallet PROPERTY OUTPUT_NAME "simplewallet")
 set_property(TARGET PaymentGateService PROPERTY OUTPUT_NAME "walletd")
 set_property(TARGET PoolWallet PROPERTY OUTPUT_NAME "poolwallet")

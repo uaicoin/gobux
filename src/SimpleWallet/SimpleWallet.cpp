@@ -244,10 +244,10 @@ std::shared_ptr<WalletInfo> createViewWallet(CryptoNote::WalletGreen &wallet)
                       << "It should be 99 characters long, but it is "
                       << address.length() << " characters long!" << std::endl;
         }
-        else if (address.substr(0, 4) != "TRTL")
+        else if (address.substr(0, 4) != "Uaic")
         {
             std::cout << WarningMsg("Invalid address! It should start with "
-                                    "\"TRTL\"!") << std::endl;
+                                    "\"Uaic\"!") << std::endl;
         }
         else if (!CryptoNote::parseAccountAddressString(prefix, publicKeys,
                                                         address))

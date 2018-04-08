@@ -1245,7 +1245,7 @@ void findNewTransactions(CryptoNote::INode &node,
                 std::string warning =
                     "Syncing may be stuck. Try restarting UaiCoind.\n"
                     "If this persists, visit "
-                    "https://turtlecoin.lol/#contact for support.";
+                    "https://uaicoin.github.io/ for support.";
                 std::cout << WarningMsg(warning) << std::endl;
             }
             else if (stuckCounter > 19)

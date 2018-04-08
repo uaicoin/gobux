@@ -134,7 +134,7 @@ Config parseArguments(int argc, char **argv)
                 config.host = urlString.substr(0, splitter);
 
                 /* Port is everything after ":" */
-                std::string port = urlString.substr(splitter + 1,   
+                std::string port = urlString.substr(splitter + 1,
                                                     std::string::npos);
 
                 try
@@ -155,7 +155,7 @@ Config parseArguments(int argc, char **argv)
 
 void versionMessage()
 {
-    std::cout << "TurtleCoin v" << PROJECT_VERSION << " Simplewallet"
+    std::cout << "UaiCoin v" << PROJECT_VERSION << " Simplewallet"
               << std::endl;
 }
 

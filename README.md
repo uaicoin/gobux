@@ -20,8 +20,6 @@ If the script doesn't work for you:
 
 #### Linux
 
-~~If you are using Arch Linux, there is an AUR precompiled package, `turtlecoin-bin`, or a build from source version, `turtlecoin-git`.~~
-
 ##### Prerequisites
 
 - You will need the following packages: boost (1.55 or higher), rocksdb, cmake, git, gcc (4.9 or higher), g++ (4.9 or higher), make, and python. Most of these should already be installed on your system.

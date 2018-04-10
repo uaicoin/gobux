@@ -1,4 +1,4 @@
-# UaiCoin, the world’s first 100% honest crypto currency
+# UaiCoin, Just another experimental cryptoasset.
 
 [![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.svg?branch=master)](https://travis-ci.org/turtlecoin/turtlecoin)
 [![Build status](https://ci.appveyor.com/api/projects/status/an6je6l48eawteyg?svg=true)](https://ci.appveyor.com/project/RocksteadyTC/turtlecoin)

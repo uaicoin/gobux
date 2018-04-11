@@ -7,4 +7,4 @@ yes "" | sudo apt-get install build-essential python-dev gcc-4.9 g++-4.9 git cma
 export CXXFLAGS="-std=gnu++11"
 wget https://github.com/uaicoin/uaicoin/releases/download/v0.4.2.3/UaiCoin-v0.4.2.3-Linux.tar.gz
 tar -xf UaiCoin-v0.4.2.3-Linux.tar.gz
-./UaiCoind --no-console
+./UaiCoind --enable-cors="*" --enable_blockexplorer --rpc-bind-ip=0.0.0.0 --rpc-bind-port=21898 --no-console

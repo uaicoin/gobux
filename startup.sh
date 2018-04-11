@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# use this installer to download and run uaicoind in one line or at system startup
+# use this installer to download and run uaicoind at system startup
 # supports Ubuntu 16 LTS
 
 sudo apt-get update

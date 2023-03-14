@@ -1,4 +1,4 @@
-# UaiCoin, Just another experimental cryptoasset.
+Gobux, goblintown currency.
 
 [![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.svg?branch=master)](https://travis-ci.org/turtlecoin/turtlecoin)
 [![Build status](https://ci.appveyor.com/api/projects/status/an6je6l48eawteyg?svg=true)](https://ci.appveyor.com/project/RocksteadyTC/turtlecoin)
@@ -8,7 +8,7 @@
 
 There is a bash installation script for Ubuntu 16.04+ and MacOS 10.10+ which can be used to checkout and build the project from source:
 
-`$ curl -sL "https://raw.githubusercontent.com/uaicoin/uaicoin/master/multi_installer.sh" | bash `
+`$ curl -sL "https://raw.githubusercontent.com/uaicoin/gobux/master/multi_installer.sh" | bash `
 
 On Ubuntu you will be asked for sudo rights to install software. The binaries will be in `./src` after compilation is complete.
 
@@ -33,8 +33,8 @@ sudo apt-get install librocksdb-dev
 
 ##### Building
 
-- `git clone https://github.com/uaicoin/uaicoin`
-- `cd uaicoin`
+- `git clone https://github.com/uaicoin/gobux`
+- `cd gobux`
 - `mkdir build && cd $_`
 - `cmake ..`
 - `make`
@@ -49,8 +49,8 @@ sudo apt-get install librocksdb-dev
 
 ##### Building
 
-- `git clone https://github.com/uaicoin/uaicoin`
-- `cd uaicoin`
+- `git clone https://github.com/uaicoin/gobux`
+- `cd gobux`
 - `mkdir build && cd $_`
 - `cmake ..` or `cmake -DBOOST_ROOT=<path_to_boost_install> ..` when building
   from a specific boost install. If you used brew to install boost, your path is most likely `/usr/local/include/boost.`
@@ -58,7 +58,7 @@ sudo apt-get install librocksdb-dev
 
 The binaries will be in `./src` after compilation is complete.
 
-Run `./src/UaiCoind` to connect to the network and let it sync (it may take a while).
+Run `./src/Gobuxd` to connect to the network and let it sync (it may take a while).
 
 #### Windows 10
 
@@ -70,7 +70,7 @@ Run `./src/UaiCoind` to connect to the network and let it sync (it may take a wh
 ##### Building
 
 - From the start menu, open 'x64 Native Tools Command Prompt for vs2017'.
-- `cd <your_uaicoin_directory>`
+- `cd <your_gobux_directory>`
 - `mkdir build`
 - `cd build`
 - Set the PATH variable for cmake: ie. `set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin";%PATH%`
